@@ -1,6 +1,19 @@
 ﻿Public Class Animal
-    Private name As String
+    Private _name As String
     Public age As Integer
+
+    Public Property NAME() As String
+        Get
+            Return _name
+        End Get
+        Set(value As String)
+            If value = "" Then
+                _name = "動物"
+            Else
+                _name = value
+            End If
+        End Set
+    End Property
 
     Public Function ageAgterFiveYear()
         Const add As Integer = 5
