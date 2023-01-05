@@ -11,6 +11,7 @@ Module Program
         Console.WriteLine($"{NameOf(animal1)}の年齢は{animal1.age}です")
         Console.WriteLine($"{NameOf(animal2)}の年齢は{animal2.age}です")
 
+        Console.WriteLine($"{NameOf(animal1)}の5年後の年齢は{animal1.ageAgterFiveYear()}")
 
         Console.ReadLine()
     End Sub
