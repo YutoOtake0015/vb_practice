@@ -8,10 +8,10 @@ Module Program
         animal1.age = 20
         animal2.age = 33
 
-        Console.WriteLine($"{NameOf(animal1)}の年齢は{animal1.age}です")
-        Console.WriteLine($"{NameOf(animal2)}の年齢は{animal2.age}です")
+        Console.WriteLine($"{NameOf(animal1)}の年齢は{animal1.age}歳です")
+        Console.WriteLine($"{NameOf(animal2)}の年齢は{animal2.age}歳です")
 
-        Console.WriteLine($"{NameOf(animal1)}の5年後の年齢は{animal1.ageAgterFiveYear()}")
+        Console.WriteLine($"{NameOf(animal1)}の5年後の年齢は{animal1.ageAgterFiveYear()}歳です")
 
         Console.ReadLine()
     End Sub
