@@ -2,6 +2,10 @@
     Private _name As String
     Public age As Integer
 
+    Public Sub New()
+        _name = "未定"
+    End Sub
+
     Public Property NAME() As String
         Get
             Return _name

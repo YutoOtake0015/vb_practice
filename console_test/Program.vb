@@ -16,6 +16,8 @@ Module Program
         animal1.NAME() = "ƒLƒŠƒ“"
         Console.WriteLine($"{NameOf(animal1)}‚Ì–¼‘O‚Í{animal1.NAME()}‚Å‚·")
 
+        Console.WriteLine($"{NameOf(animal2)}‚Ì–¼‘O‚Í{animal2.NAME()}‚Å‚·")
+
         Console.ReadLine()
     End Sub
 End Module
